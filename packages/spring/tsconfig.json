@@ -1,0 +1,15 @@
+{
+  "include": ["src", "rollup.config.js"],
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noUnusedLocals": false,
+    "outDir": "dist",
+    "strict": true,
+    "sourceMap": true,
+    "target": "ESNext"
+  }
+}
